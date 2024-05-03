@@ -164,3 +164,4 @@ pdf_output
 pdf_input
 .venv
 code/.DS_Store
+workspace
