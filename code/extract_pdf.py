@@ -41,10 +41,10 @@ def main(args):
     if args.pdf_file_input is None:
         print(f"PDF file information is missing. '/your/folder/pdf_file.pdf'")
     else:
-        input_pdf = args.pdf_file
+        input_pdf = args.pdf_file_input
 
     if args.json_file_output is None:
-        print(f"PDF file information is missing. '/your/folder/pdf_file.pdf'")
+        print(f"JSON output file information is missing. '/your/folder/pdf_file.json'")
     else:
         output_json = args.json_file_output
     
