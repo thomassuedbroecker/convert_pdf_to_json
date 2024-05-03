@@ -162,4 +162,5 @@ cython_debug/
 #Additional
 pdf_output
 pdf_input
-venv
+.venv
+code/.DS_Store

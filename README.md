@@ -11,8 +11,8 @@ mkdir pdf_export
 
 ```sh
 cd code
-python3 -m venv venv
-source ./venv/bin/activate
+python3 -m venv .venv
+source ./.venv/bin/activate
 ```
 
 * Install environment
