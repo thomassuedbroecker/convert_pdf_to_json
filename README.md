@@ -25,3 +25,10 @@ python3 -m pip install PyPDF2
 ```sh
 cat env_template >> .env
 ```
+
+* Extract text from pdf and save it into JSON
+
+```sh
+bash show_pdf.sh
+```
+

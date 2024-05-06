@@ -165,3 +165,4 @@ pdf_input
 .venv
 code/.DS_Store
 workspace
+.DS_Store
