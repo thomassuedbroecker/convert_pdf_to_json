@@ -10,7 +10,7 @@ The conversion of PDF files and generates JSON files in the following format. A 
 ```json
 { "pdf_pages" : 
     [{"page":"1","content":"xxx"},
-     {"page":"2","content":"yyy"}]]
+     {"page":"2","content":"yyy"}]
 }
 ```
 
