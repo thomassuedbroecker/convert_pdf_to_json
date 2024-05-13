@@ -1,11 +1,10 @@
 # extract_pdf
 
-The `extract_PDF` project contains a functionality to convert PDF files to JSON files.
-You use the Python program a bash automation to convert multiple PDF files.
+The extract_PDF project contains a functionality to convert PDF files to JSON files. You use the Python program, bash automation, to convert multiple PDF files.
 
 You define the root folder in the bash file, and the bash automation iterates to all documents and executes the Python program to read the PDF files and convert them into JSON files.
 
-The conversion of PDF files and generates JSON files in the following format. A JSON array with entries for each page.
+As a result of the conversion process, the PDF files are transformed into JSON files. These JSON files are structured as a JSON array, with each page of the original PDF file represented as an entry in the array.
 
 ```json
 { "pdf_pages" : 
@@ -40,9 +39,34 @@ python3 -m pip install PyPDF2
 cat env_template >> .env
 ```
 
+`.env` file content
+
+```sh
+export PDF_FILE=
+export JSON_FILE=
+```
+
 * Extract text from pdf and save it into JSON
 
 ```sh
 bash show_pdf.sh
+```
+
+* Resulting JSON format
+
+```json
+{
+    "file": "/path/to/pdf_file/file.pdf",
+    "pages": [
+        {
+            "page": 0,
+            "content": "CONTENT"
+        },
+        {
+            "page": 1,
+            "content": "CONTENT"
+        }
+    ]
+}
 ```
 
