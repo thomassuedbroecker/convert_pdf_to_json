@@ -4,7 +4,9 @@ import json
 
 
 '''
-{ "pdf_pages" : 
+{ 
+  "file": "/path/to/pdf_file/file.pdf",
+  "pdf_pages" : 
     [{"page":"1","content":"xxx"},
      {"page":"2","content":"yyy"}]]
 }

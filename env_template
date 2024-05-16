@@ -1,2 +1,3 @@
 export PDF_FILE=
+export DOCX_FILE=
 export JSON_FILE=

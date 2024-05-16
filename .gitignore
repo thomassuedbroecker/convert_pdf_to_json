@@ -160,8 +160,10 @@ cython_debug/
 #.idea/
 
 #Additional
-pdf_output
 pdf_input
+pdf_output
+docx_input
+docx_output
 .venv
 code/.DS_Store
 workspace
