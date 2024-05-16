@@ -15,6 +15,12 @@ As a result of the conversion process, the PDF files are transformed into JSON f
 }
 ```
 
+* Clone the project
+
+```sh
+git clone https://github.com/thomassuedbroecker/convert_pdf_to_json.git
+```
+
 * Create folders 
 
 ```sh
